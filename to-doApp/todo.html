@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2ddd52db4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles-todo.css">
+    <script defer src="./todo.js"></script>
+    <title>To do App</title>
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-check"></i>
+        <h1>Todo App</h1>
+    </header>
+    <section id="tasks-general">
+
+        <div id="important">
+            <h2>Important</h2>
+            <p>Aún no hay tareas importantes</p>
+            <ul class="cont-favo">
+            </ul>
+        </div>
+
+        <div id="tasks">
+            <h2>Tasks</h2>
+            <ul id="cont-task">
+            </ul>
+        </div>
+
+        <div id="entries">
+            <form action="" id="formulario">
+                <div class="cont-entries">
+                    <input type="text" name="entries-task" id="entries-task" placeholder="What do you need to do?">
+                    <button id="add">+ Add</button>
+                </div>
+                <div class="alert">
+                    <p id="alert">Por favor escriba una tarea correcta</p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

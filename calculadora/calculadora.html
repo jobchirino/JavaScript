@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="./estilos.css">
+    <!-- <script defer src="./calculadora.js"></script> -->
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="contenedor-principal">
+        <div id="formulario">
+            <div id="boton-transition">
+                <button id="switch" class="switch">
+                    <span>L</span>
+                    <span>D</span>
+                </button>
+            </div>
+            <div id="historial">
+                <p id="historial-text"></p>
+            </div>
+            <form action="" id="form">
+                <input type="text" id="campo" readonly/>
+            </form>
+        </div>
+        <div id="botones">
+            <button class="borradores" id="borrar">AC</button>
+            <button class="signo">^</button>
+            <button class="borradores" id="delete">d</button>
+            <button class="signo">÷</button>
+
+            <button class="numeros">7</button>
+            <button class="numeros">8</button>
+            <button class="numeros">9</button>
+
+            <button class="signo">x</button>
+
+            <button class="numeros">4</button>
+            <button class="numeros">5</button>
+            <button class="numeros">6</button>
+
+            <button class="signo">-</button>
+
+            <button class="numeros">1</button>
+            <button class="numeros">2</button>
+            <button class="numeros">3</button>
+
+            <button class="signo">+</button>
+            <button class="orange">R</button>
+
+            <button class="numeros">0</button>
+            <button class="punto">.</button>
+
+            <button class="orange" id="igualdad">=</button>
+        </div>
+    </div>
+    <script src="./calc.js"></script>
+</body>
+</html>
